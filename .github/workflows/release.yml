@@ -1,0 +1,34 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Package Plugin Zip
+        run: |
+          mkdir -p account-pool/styles
+          cp plugin.json account-pool/
+          cp index.js account-pool/
+          cp styles/sidebar.css account-pool/styles/
+          cp enable-autostart.bat account-pool/
+          cp README.md account-pool/
+          zip -r account-pool.zip account-pool
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: account-pool.zip
+          draft: false
+          prerelease: false
+          generate_release_notes: true

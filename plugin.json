@@ -1,0 +1,9 @@
+{
+  "name": "Account Pool Monitor",
+  "description": "Visual status indicator and pool manager for Antigravity Tools multi-account proxy.",
+  "version": "1.0.2",
+  "author": "giangero1",
+  "homepage": "https://github.com/giangero1/bettergravity-account-pool",
+  "main": "index.js",
+  "styles": ["styles/sidebar.css"]
+}
