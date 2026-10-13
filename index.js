@@ -335,7 +335,7 @@ sidebarButtonHandle = ui.button({
   area: "sidebar",
   label: "Active: Loading...",
   icon: PERSON_ICON,
-  tooltip: "Open 5-Account Quota Dashboard & Switcher",
+  tooltip: "Open Account Pool Dashboard & Switcher",
   onClick: () => openPoolModal()
 });
 if (sidebarButtonHandle?.element) {
