@@ -9,6 +9,19 @@
 
 ---
 
+## 📸 Showcase & Preview
+
+<p align="center">
+  <img src="assets/account-dashboard.png" width="490" alt="Account Manager & Quota Monitor Modal" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/sidebar-status.png" width="310" alt="Docked Sidebar Status Button" />
+</p>
+
+- **Multi-Account Dashboard Modal**: Live 5-Hour and Weekly remaining quotas, reset countdowns, Pro tier badges, and instant 1-click **Switch To This** account actions.
+- **Persistent Sidebar Ticker**: Compact status indicator docked at the bottom of the Antigravity sidebar showing active account quota limits and quick-switch access.
+
+---
+
 ## 🔗 The Ecosystem: How It Works
 
 This project connects two essential community tools to give you unlimited, hassle-free Gemini coding in Google Antigravity:
